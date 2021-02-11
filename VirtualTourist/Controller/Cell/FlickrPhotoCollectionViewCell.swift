@@ -8,5 +8,9 @@
 import UIKit
 
 class FlickrPhotoCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
     
+    override class func awakeFromNib() {
+        
+    }
 }
